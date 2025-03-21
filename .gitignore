@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.db
+*.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+.env
+.env.*
+*.env
+*.venv
+*.vscode/
+
+# Poetry environment
+*.lock
+
+# VSCode Settings
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# pytest Cache
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
+
+# FastAPI specific
+instance/
+logs/
+*.db-journal
+
+# Docker
+docker-compose.override.yml
+*.envrc
+
+# Deployment specific
+*.pem
+*.key
+*.crt
+
+# Other IDE-specific files
+*.sublime-project
+*.sublime-workspace

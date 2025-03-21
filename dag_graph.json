@@ -1,0 +1,36 @@
+{
+    "components": [
+        {
+            "id": "Step 1",
+            "dependencies": []
+        },
+        {
+            "id": "Step 2",
+            "dependencies": []
+        },
+        {
+            "id": "Step 3",
+            "dependencies": [
+                "Step 2"
+            ]
+        },
+        {
+            "id": "Step 4",
+            "dependencies": [
+                "Step 3",
+                "Step 1"
+            ]
+        },
+        {
+            "id": "Step 5",
+            "dependencies": []
+        },
+        {
+            "id": "Step 6",
+            "dependencies": [
+                "Step 3",
+                "Step 4"
+            ]
+        }
+    ]
+}
